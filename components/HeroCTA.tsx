@@ -22,12 +22,12 @@ export function HeroCTA() {
                 Browse Menu
             </button>
             <a
-                href="tel:9604940540"
+                href="tel:9604040501"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl
           border-2 border-[#C8961E] text-[#C8961E] text-sm font-semibold
           hover:bg-[rgba(200,150,30,0.1)] transition-colors duration-200 bg-white/60"
             >
-                📞 9604940540
+                📞 9604040501
             </a>
         </div>
     );

@@ -5,7 +5,7 @@ import { CartProvider } from "@/context/CartContext";
 export const metadata: Metadata = {
   title: "The Pizza Room — Order Online | Akurdi, Pune",
   description:
-    "Order pizza, pasta, garlic bread, shakes and more from The Pizza Room in Akurdi, Pune. Home delivery via WhatsApp. Call 9604940540.",
+    "Order pizza, pasta, garlic bread, shakes and more from The Pizza Room in Akurdi, Pune. Home delivery via WhatsApp. Call 9604040501.",
   keywords: ["pizza", "pizza room", "Akurdi", "pune", "order pizza online", "pasta", "garlic bread"],
   openGraph: {
     title: "The Pizza Room",

@@ -131,7 +131,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                             <span className="text-[#C8961E] font-bold text-lg">₹{totalPrice}</span>
                         </div>
                         <a
-                            href={`https://wa.me/919604940540?text=${buildWhatsAppMessage()}`}
+                            href={`https://wa.me/9604040501?text=${buildWhatsAppMessage()}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="glow-pulse flex items-center justify-center gap-2 w-full py-3 rounded-xl
