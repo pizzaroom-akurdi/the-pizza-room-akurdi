@@ -358,7 +358,7 @@ export const MENU_ITEMS: MenuItem[] = [
         id: "gr-veg-cheese",
         name: "Veg Cheese Grill",
         category: "grills",
-        description: "Potato, capsicum, onion and tomato",
+        description: "Potato, capsicum, onion, tomato and cheese",
         price: 99,
     },
     {
@@ -372,7 +372,7 @@ export const MENU_ITEMS: MenuItem[] = [
         id: "gr-pahadi-cheese",
         name: "Pahadi Cheese Grill",
         category: "grills",
-        description: "Capsicum & onion with house-made mix sauce and fresh paneer",
+        description: "Capsicum & onion with house-made mix sauce",
         price: 129,
     },
     {
@@ -386,7 +386,7 @@ export const MENU_ITEMS: MenuItem[] = [
         id: "gr-veg-cheese-paneer",
         name: "Veg Cheese Paneer Grill",
         category: "grills",
-        description: "Capsicum and onion with house-made spicy sauce and paneer cheese",
+        description: "Capsicum and onion with paneer cheese",
         price: 139,
     },
     {
@@ -414,7 +414,7 @@ export const MENU_ITEMS: MenuItem[] = [
         id: "gr-cheese-chilli-paneer",
         name: "Cheese Chilli Paneer Grill",
         category: "grills",
-        description: "Capsicum & onion with house-made spicy sauce, paneer and cheese",
+        description: "Capsicum & onion with house-made spicy sauce, fresh paneer and cheese",
         price: 139,
     },
     {
