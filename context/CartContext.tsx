@@ -117,7 +117,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     }, 0);
 
     const gst = Math.round(subtotal * 0.05 * 100) / 100;
-    const packagingCharges = subtotal > 0 ? 5 : 0;
+    const packagingCharges = 0;
     const amountBeforeDelivery = Math.round((subtotal + gst + packagingCharges) * 100) / 100;
     const deliveryCharge = (subtotal > 0 && amountBeforeDelivery <= 280) ? 20 : 0;
     const totalPrice = Math.round((amountBeforeDelivery + deliveryCharge) * 100) / 100;

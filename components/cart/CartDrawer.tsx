@@ -39,7 +39,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
         msg += "\n--- *Bill Summary* ---\n";
         msg += `Subtotal: ₹${subtotal}\n`;
         msg += `GST (5%): ₹${gst}\n`;
-        msg += `Packaging Charges: ₹${packagingCharges}\n`;
+        // msg += `Packaging Charges: ₹${packagingCharges}\n`;
         msg += `Delivery Charges: ${deliveryCharge > 0 ? `₹${deliveryCharge}` : "FREE"}\n`;
         msg += `*Grand Total: ₹${totalPrice}*\n\n`;
         msg += "Please confirm my order. Thank you!";
@@ -115,10 +115,10 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                                 <span className="text-[#8A7A60]">GST (5%)</span>
                                 <span className="text-[#1A1209]">₹{gst}</span>
                             </div>
-                            <div className="flex justify-between items-center text-xs">
+                            {/* <div className="flex justify-between items-center text-xs">
                                 <span className="text-[#8A7A60]">Packaging Charges</span>
                                 <span className="text-[#1A1209]">₹{packagingCharges}</span>
-                            </div>
+                            </div> */}
                             <div className="flex justify-between items-center text-xs">
                                 <span className="text-[#8A7A60]">Delivery Charges</span>
                                 <span className={deliveryCharge > 0 ? "text-[#1A1209]" : "text-green-600 font-medium"}>
